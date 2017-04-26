@@ -15,7 +15,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(changeMessage({ text: `Redux is working: ${text}` }));
     }),
     saveMessage: ((message) => {
-      db.saveMessage(message, function(msg) {console.log(msg)});
+      // db.saveMessage(message, function(msg) {console.log(msg)});
     }),
   };
 };
