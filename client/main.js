@@ -1,18 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
 
-import myApp from './reducers/index';
-import AppContainer from './containers/AppContainer';
-
-var store = createStore(
-  myApp,
-);
+import App from './components/App';
 
 ReactDOM.render(
-  <Provider store={store}>
-    <AppContainer />
-  </Provider>, 
+    <App />,
   document.getElementById('app')
 );
