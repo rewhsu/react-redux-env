@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { changeMessage } from '../actions/actions';
 import App from '../components/App';
-import db from '../../db/controller';
+// import db from '../../db/controller';
 
 const mapStateToProps = (state) => {
   return {
